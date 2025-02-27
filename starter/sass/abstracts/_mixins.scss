@@ -27,6 +27,10 @@ $breakpoint argument choices:
 - tablet-port
 - tablet-land
 - big-desktop
+
+ORDER: Base + Typography -> General Layout -> Grid -> Page Layout -> Components
+
+1em = 16px
 */
 
 @mixin respond($breakpoint) {

@@ -24,4 +24,8 @@ html {
 body {
   padding: 3rem;
   box-sizing: border-box;
+
+  @include respond(tablet-port) { 
+    padding: 0;
+  }
 }

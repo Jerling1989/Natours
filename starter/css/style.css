@@ -427,18 +427,11 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 90%;
-  transition: transform 0.5s;
-  backface-visibility: hidden;
 }
 .card__price-box {
   text-align: center;
   color: #fff;
   margin-bottom: 8rem;
-}
-.card__price-box h4 {
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
 }
 .card__price-only {
   font-size: 1.4rem;
@@ -448,7 +441,6 @@ body {
   font-size: 6rem;
   font-weight: 100;
 }
-
 .composition {
   position: relative;
 }
